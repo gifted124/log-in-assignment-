@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  nav{
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.747);
+    z-index: 1000;
+  }
+  
+  .nav{
+    width: 84.3%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav_left{
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav_logo{
+    padding: 22px 0px 19px 0px;
+  }
+  
+  .nav_logo img{
+    width: 180px;
+    height: 55px;
+  }
+  
+  .menue{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menue h1{
+    color: white;
+    font-family: t4;
+    font-size: 15px;
+  }
+  
+  .menue img{
+    height: 20px;
+    width: 30px;
+  }
+  
+  .earth{
+    margin-top: 10px;
+  }
+  
+  .s_lang{
+    display: flex;
+    align-items: center;
+    width: 130px;
+    justify-content: space-between;
+  }
+  
+  .s_lang img{
+    width: 10px;
+    height: 20px;
+  }
+  
+  .s_lang button{
+    background-color: rgb(74, 112, 181);
+    color: black;
+    padding-right: 10px;
+    font-size: 13px;
+    border-right: 1px solid white;
+    border-width: 0px 1px 0px 0px;
+    cursor: pointer;
+  }
+  
+  .nav_button button{
+    border-style: none;
+    background-color: #ffc427;
+    color: white;
+    font-size: 15px;
+    padding: 14px 25px;
+    border-radius:4px;
+  }
+  button:hover{
+    background-color: black;
+    color: white;
+  }
